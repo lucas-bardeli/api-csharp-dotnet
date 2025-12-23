@@ -13,7 +13,7 @@ public class RegisterClientUseCase
 
         if (!result.IsValid)
         {
-            throw new ArgumentException("Erro nos dados recebidos");
+            throw new ArgumentException("Erro nos dados recebidos.");
         }
 
         return new ResponseClientJson();
